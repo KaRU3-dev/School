@@ -5,9 +5,23 @@ using UnityEngine;
 public class CarController : MonoBehaviour
 {
     [SerializeField] private float CarSpeed;
+    [SerializeField] private bool IsRight;
 
-    void Update()
+    private void Update()
     {
-        transform.position += Vector3.left * CarSpeed * Time.deltaTime;
+        if (!IsRight)
+        {
+            transform.position += Vector3.left * CarSpeed * Time.deltaTime;
+        }
+        else
+        {
+            transform.position += Vector3.right * CarSpeed * Time.deltaTime;
+        }
+
+    }
+
+    private void destroyCar()
+    {
+        Destroy(gameObject);
     }
 }

@@ -16,6 +16,8 @@ TagManager:
   - StartPos
   - MidPos
   - Ground
+  - ObjectLimits
+  - RidingObjects
   layers:
   - Default
   - TransparentFX

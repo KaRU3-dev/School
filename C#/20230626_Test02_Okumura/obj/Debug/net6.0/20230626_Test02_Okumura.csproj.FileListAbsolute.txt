@@ -1,0 +1,15 @@
+D:\Develope\School\C#\20230626_Test02_Okumura\obj\Debug\net6.0\20230626_Test02_Okumura.csproj.AssemblyReference.cache
+D:\Develope\School\C#\20230626_Test02_Okumura\obj\Debug\net6.0\20230626_Test02_Okumura.GeneratedMSBuildEditorConfig.editorconfig
+D:\Develope\School\C#\20230626_Test02_Okumura\obj\Debug\net6.0\20230626_Test02_Okumura.AssemblyInfoInputs.cache
+D:\Develope\School\C#\20230626_Test02_Okumura\obj\Debug\net6.0\20230626_Test02_Okumura.AssemblyInfo.cs
+D:\Develope\School\C#\20230626_Test02_Okumura\obj\Debug\net6.0\20230626_Test02_Okumura.csproj.CoreCompileInputs.cache
+D:\Develope\School\C#\20230626_Test02_Okumura\bin\Debug\net6.0\20230626_Test02_Okumura.exe
+D:\Develope\School\C#\20230626_Test02_Okumura\bin\Debug\net6.0\20230626_Test02_Okumura.deps.json
+D:\Develope\School\C#\20230626_Test02_Okumura\bin\Debug\net6.0\20230626_Test02_Okumura.runtimeconfig.json
+D:\Develope\School\C#\20230626_Test02_Okumura\bin\Debug\net6.0\20230626_Test02_Okumura.dll
+D:\Develope\School\C#\20230626_Test02_Okumura\bin\Debug\net6.0\20230626_Test02_Okumura.pdb
+D:\Develope\School\C#\20230626_Test02_Okumura\obj\Debug\net6.0\20230626_Test02_Okumura.dll
+D:\Develope\School\C#\20230626_Test02_Okumura\obj\Debug\net6.0\refint\20230626_Test02_Okumura.dll
+D:\Develope\School\C#\20230626_Test02_Okumura\obj\Debug\net6.0\20230626_Test02_Okumura.pdb
+D:\Develope\School\C#\20230626_Test02_Okumura\obj\Debug\net6.0\20230626_Test02_Okumura.genruntimeconfig.cache
+D:\Develope\School\C#\20230626_Test02_Okumura\obj\Debug\net6.0\ref\20230626_Test02_Okumura.dll

@@ -18,6 +18,10 @@ TagManager:
   - Ground
   - ObjectLimits
   - RidingObjects
+  - ShortWood
+  - LongWood
+  - GoRightTurtle
+  - GoLeftTurtle
   layers:
   - Default
   - TransparentFX

@@ -57,9 +57,9 @@ public class CarGenerator : MonoBehaviour
     /// </summary>
     public void ShowGeneratorPosition()
     {
-        VectorPos1 = GeneratorPos1.transform.localPosition;
-        VectorPos2 = GeneratorPos2.transform.localPosition;
-        VectorPos3 = GeneratorPos3.transform.localPosition;
+        VectorPos1 = GeneratorPos1.transform.position;
+        VectorPos2 = GeneratorPos2.transform.position;
+        VectorPos3 = GeneratorPos3.transform.position;
     }
 
     /// <summary>

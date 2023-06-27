@@ -19,9 +19,4 @@ public class CarController : MonoBehaviour
         }
 
     }
-
-    private void destroyCar()
-    {
-        Destroy(gameObject);
-    }
 }

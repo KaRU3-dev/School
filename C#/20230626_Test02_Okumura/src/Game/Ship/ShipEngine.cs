@@ -13,12 +13,14 @@ namespace _20230626_Test02_Okumura.src.Game.Ship
 {
     public class ShipEngine
     {
-        private static Random rnd = new();
+        private Random rnd = new();
+
+        public ShipComponents ShipComponents = new();
 
         /// <summary>
         /// 名前の入力をリクエスト
         /// </summary>
-        public static void RequestName()
+        public void RequestName()
         {
             Console.WriteLine("艦船の名前を決定してください：");
             ShipComponents.Name = Console.ReadLine();
@@ -26,14 +28,14 @@ namespace _20230626_Test02_Okumura.src.Game.Ship
         /// <summary>
         /// 攻撃力を指定
         /// </summary>
-        public static void SetAttackPower()
+        public void SetAttackPower()
         {
             ShipComponents.Damage = rnd.Next(15, 50);
         }
         /// <summary>
         /// 生きているかどうかを判定する
         /// </summary>
-        public static void SetAlive()
+        public void SetAlive()
         {
             if (ShipComponents.Armor > 0)
             {
@@ -48,7 +50,7 @@ namespace _20230626_Test02_Okumura.src.Game.Ship
         /// 攻撃をする
         /// </summary>
         /// <returns>ShipComponents.Damage</returns>
-        public static int Attack()
+        public int Attack()
         {
             Console.WriteLine("潜水艦を攻撃！");
             return ShipComponents.Damage;
@@ -57,7 +59,7 @@ namespace _20230626_Test02_Okumura.src.Game.Ship
         /// 攻撃を受けた場合に残りArmorを計算する
         /// </summary>
         /// <param name="GetDamage"></param>
-        public static void CalculateHitpoint(int GetDamage)
+        public void CalculateHitpoint(int GetDamage)
         {
             ShipComponents.Armor -= GetDamage;
         }

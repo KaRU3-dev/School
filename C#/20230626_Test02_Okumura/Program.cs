@@ -11,11 +11,13 @@ namespace _20230626_Test02_Okumura
 
         public static void Main(string[] args)
         {
+            Game game = new();
+
             // ゲーム開始
-            Game.Start();
+            game.Start();
 
             // ゲームループ
-            Game.Update();
+            game.Update();
         }
     }
 }

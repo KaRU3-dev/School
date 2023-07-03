@@ -12,10 +12,9 @@ namespace _202230626_Task01_Okumura
 {
     internal class Program
     {
-        private Sys sys = new();
-
         public static void Main(string[] args)
         {
+            Sys sys = new();
             Sys.Start();
         }
     }

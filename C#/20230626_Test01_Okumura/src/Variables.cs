@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace _20230626_Test01_Okumura.src
 {
-    public static class Variables
+    public class Variables
     {
         #region Games
         /// <summary>
         /// ゲーム中かどうか
         /// </summary>
-        public static bool InGame = false;
-        public static bool Goal = false;
+        public bool InGame = false;
+        public bool Goal = false;
         #endregion
 
 
@@ -25,11 +25,11 @@ namespace _20230626_Test01_Okumura.src
         /// 1: 真ん中
         /// 2: 左
         /// </summary>
-        public static int PlayerKickAmount { get; set; } = 1;
+        public int PlayerKickAmount { get; set; } = 1;
         /// <summary>
         /// プレイヤーが蹴れるキックの残り回数
         /// </summary>
-        public static int KickAmount = 1;
+        public int KickAmount = 1;
         #endregion
 
         #region Keaper
@@ -40,7 +40,7 @@ namespace _20230626_Test01_Okumura.src
         /// 1: 真ん中
         /// 2: 右
         /// </summary>
-        public static int KeaperBlockAmount { get; set; } = 1;
+        public int KeaperBlockAmount { get; set; } = 1;
         #endregion
     }
 }

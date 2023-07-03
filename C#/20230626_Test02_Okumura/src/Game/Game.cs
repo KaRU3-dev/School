@@ -15,7 +15,12 @@ namespace _20230626_Test02_Okumura
 {
     public class Game
     {
-        public static void Start()
+        private ShipEngine ShipEngine = new();
+        private SubmarineEngine SubmarineEngine = new();
+
+        private GameVariables GameVariables = new();
+
+        public void Start()
         {
             // スタート
             StartLog();
@@ -31,7 +36,7 @@ namespace _20230626_Test02_Okumura
             SubmarineEngine.SetAttackPower();
         }
 
-        public static void Update()
+        public void Update()
         {
             while (GameVariables.InGame)
             {
@@ -52,7 +57,7 @@ namespace _20230626_Test02_Okumura
                 else
                 {
                     // どちらが勝利したかを判定し、出力
-                    CheckResult(ShipComponents.Alive, SubmarineComponents.Alive);
+                    CheckResult(ShipEngine.ShipComponents.Alive, SubmarineEngine.SubmarineComponents.Alive);
 
                     // ゲームを終了
                     GameVariables.InGame = false;
@@ -63,7 +68,7 @@ namespace _20230626_Test02_Okumura
         /// <summary>
         /// ようこそメッセージ
         /// </summary>
-        private static void StartLog()
+        private void StartLog()
         {
             Console.WriteLine("戦闘海域へようこそ！");
             Console.WriteLine("あなたは、潜水艦乗務員で標的の艦船を破壊する必要があります。");
@@ -73,9 +78,9 @@ namespace _20230626_Test02_Okumura
         /// 両方が生きているか確認
         /// </summary>
         /// <returns>bool true/false</returns>
-        private static bool CheckAlive()
+        private bool CheckAlive()
         {
-            if (SubmarineComponents.Alive && ShipComponents.Alive)
+            if (SubmarineEngine.SubmarineComponents.Alive && ShipEngine.ShipComponents.Alive)
             {
                 return true;
             }
@@ -89,15 +94,15 @@ namespace _20230626_Test02_Okumura
         /// </summary>
         /// <param name="Ship">bool</param>
         /// <param name="Sub">bool</param>
-        private static void CheckResult(bool Ship, bool Sub)
+        private void CheckResult(bool Ship, bool Sub)
         {
             if (Ship == true && Sub == false)
             {
-                Console.WriteLine($"艦船({ShipComponents.Name})の勝利！");
+                Console.WriteLine($"艦船({ShipEngine.ShipComponents.Name})の勝利！");
             }
             else if (Ship == false && Sub == true)
             {
-                Console.WriteLine($"潜水艦({SubmarineComponents.Name})の勝利！");
+                Console.WriteLine($"潜水艦({SubmarineEngine.SubmarineComponents.Name})の勝利！");
             }
             else if (Ship == true && Sub == true)
             {

@@ -10,7 +10,7 @@ namespace _20230626_Test01_Okumura.src
     {
         private Game Game = new();
 
-        public static void Start()
+        public void Start()
         {
             // 現在の状況をログで出す
             Game.CurrentSituation();

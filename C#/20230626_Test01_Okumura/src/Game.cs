@@ -8,23 +8,23 @@ namespace _20230626_Test01_Okumura.src
 {
     public class Game
     {
-        private static Random rnd = new();
+        private Random rnd = new();
 
-        public static void CurrentSituation()
+        public void CurrentSituation()
         {
             Console.WriteLine("欧州サッカーのNo.1クラブを決めるヨーロッパチャンピオンカップ戦決勝！\n" +
                 "120分経ったがいまだに決着がついていない！\n" +
                 "今からPK戦だ！あなたは決めきることができるのか！？");
         }
 
-        public static void ShowHowtoInput()
+        public void ShowHowtoInput()
         {
             Console.Write("\n\n");
             Console.WriteLine("あなたは、シューターです。\n" +
                 "0: 右  1: 真ん中  2: 左  で蹴ることができます。");
         }
 
-        public static void CheckContinueGame()
+        public void CheckContinueGame()
         {
             if (Variables.Goal == true)
             {
@@ -35,7 +35,7 @@ namespace _20230626_Test01_Okumura.src
                 Variables.InGame = true;
             }
         }
-        public static void CheckGoal(int Keaper, int Shooter)
+        public void CheckGoal(int Keaper, int Shooter)
         {
             if (Keaper != Shooter)
             {
@@ -50,15 +50,15 @@ namespace _20230626_Test01_Okumura.src
             }
         }
 
-        public static void RequestKick()
+        public void RequestKick()
         {
             Console.Write("蹴る方向を決めてください：");
         }
-        public static void SetPlayerKickAmount()
+        public void SetPlayerKickAmount()
         {
             Variables.PlayerKickAmount = int.Parse(Console.ReadLine());
         }
-        public static void SetKickAmount()
+        public void SetKickAmount()
         {
             Variables.KickAmount += 1;
         }
@@ -70,7 +70,7 @@ namespace _20230626_Test01_Okumura.src
         /// 1: 真ん中
         /// 2: 右
         /// </summary>
-        public static void SetKeaperBlockAmount()
+        public void SetKeaperBlockAmount()
         {
             Variables.KeaperBlockAmount = rnd.Next(0, 3);
             Console.WriteLine(Variables.KeaperBlockAmount);

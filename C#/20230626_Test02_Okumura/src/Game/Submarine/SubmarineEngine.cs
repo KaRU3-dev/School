@@ -12,12 +12,14 @@ namespace _20230626_Test02_Okumura.src.Game.Submarine
 {
     public class SubmarineEngine
     {
-        private static Random rnd = new();
+        private Random rnd = new();
+
+        public SubmarineComponents SubmarineComponents = new();
 
         /// <summary>
         /// 名前の入力をリクエスト
         /// </summary>
-        public static void RequestName()
+        public void RequestName()
         {
             Console.WriteLine("潜水艦の名前を決定してください：");
             SubmarineComponents.Name = Console.ReadLine();
@@ -25,14 +27,14 @@ namespace _20230626_Test02_Okumura.src.Game.Submarine
         /// <summary>
         /// 攻撃力を指定
         /// </summary>
-        public static void SetAttackPower()
+        public void SetAttackPower()
         {
             SubmarineComponents.Damage = rnd.Next(15, 50);
         }
         /// <summary>
         /// 生きているかどうかを判定する
         /// </summary>
-        public static void SetAlive()
+        public void SetAlive()
         {
             if (SubmarineComponents.Armor > 0)
             {
@@ -47,7 +49,7 @@ namespace _20230626_Test02_Okumura.src.Game.Submarine
         /// 攻撃をする
         /// </summary>
         /// <returns>SubmarineComponents.Damage</returns>
-        public static int Attack()
+        public int Attack()
         {
             Console.WriteLine("艦船を攻撃！");
             return SubmarineComponents.Damage;
@@ -57,7 +59,7 @@ namespace _20230626_Test02_Okumura.src.Game.Submarine
         /// 攻撃を受けた場合に残りArmorを計算する
         /// </summary>
         /// <param name="GetDamage"></param>
-        public static void CalculateHitpoint(int GetDamage)
+        public void CalculateHitpoint(int GetDamage)
         {
             SubmarineComponents.Armor = GetDamage;
         }

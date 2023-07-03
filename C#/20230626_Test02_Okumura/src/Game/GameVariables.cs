@@ -12,6 +12,6 @@ namespace _20230626_Test02_Okumura.src.Game
 {
     public class GameVariables
     {
-        public static bool InGame = false;
+        public bool InGame = false;
     }
 }

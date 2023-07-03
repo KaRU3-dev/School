@@ -1,0 +1,15 @@
+D:\Develope\School.git\School\C#\20230703_Class3\bin\Debug\net7.0\20230703_Class3.exe
+D:\Develope\School.git\School\C#\20230703_Class3\bin\Debug\net7.0\20230703_Class3.deps.json
+D:\Develope\School.git\School\C#\20230703_Class3\bin\Debug\net7.0\20230703_Class3.runtimeconfig.json
+D:\Develope\School.git\School\C#\20230703_Class3\bin\Debug\net7.0\20230703_Class3.dll
+D:\Develope\School.git\School\C#\20230703_Class3\bin\Debug\net7.0\20230703_Class3.pdb
+D:\Develope\School.git\School\C#\20230703_Class3\obj\Debug\net7.0\20230703_Class3.csproj.AssemblyReference.cache
+D:\Develope\School.git\School\C#\20230703_Class3\obj\Debug\net7.0\20230703_Class3.GeneratedMSBuildEditorConfig.editorconfig
+D:\Develope\School.git\School\C#\20230703_Class3\obj\Debug\net7.0\20230703_Class3.AssemblyInfoInputs.cache
+D:\Develope\School.git\School\C#\20230703_Class3\obj\Debug\net7.0\20230703_Class3.AssemblyInfo.cs
+D:\Develope\School.git\School\C#\20230703_Class3\obj\Debug\net7.0\20230703_Class3.csproj.CoreCompileInputs.cache
+D:\Develope\School.git\School\C#\20230703_Class3\obj\Debug\net7.0\20230703_Class3.dll
+D:\Develope\School.git\School\C#\20230703_Class3\obj\Debug\net7.0\refint\20230703_Class3.dll
+D:\Develope\School.git\School\C#\20230703_Class3\obj\Debug\net7.0\20230703_Class3.pdb
+D:\Develope\School.git\School\C#\20230703_Class3\obj\Debug\net7.0\20230703_Class3.genruntimeconfig.cache
+D:\Develope\School.git\School\C#\20230703_Class3\obj\Debug\net7.0\ref\20230703_Class3.dll

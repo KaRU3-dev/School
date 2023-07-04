@@ -1,5 +1,17 @@
 # Flogger
 
+### Change 0.0.4
+- Player movement
+- Collision bug fix
+- Player killed action
+
+### Next
+- Timer
+- Life
+- Goal
+- Point
+- GameLoop
+
 ### Change 0.0.3
 - Add car generator script
 - Add car prefabs

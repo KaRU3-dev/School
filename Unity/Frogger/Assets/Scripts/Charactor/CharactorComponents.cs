@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class CharactorComponents : MonoBehaviour
 {
+    [Tooltip("Player Move")]
     /// <summary>
     /// Foot speed
     /// <para>If key input once, increase/decrease pos</para>
@@ -38,10 +39,12 @@ public class CharactorComponents : MonoBehaviour
     /// </summary>
     public Vector3 MoveTargetPos;
 
+    [Tooltip("Player Status")]
     /// <summary>
     /// PlayerStatus
     /// <para>0: Idle</para>
     /// <para>1: Jump</para>
+    /// <para>2: Death</para>
     /// </summary>
     public enum PlayerStatus
     {
@@ -52,14 +55,28 @@ public class CharactorComponents : MonoBehaviour
         /// <summary>
         /// Status: Jump or move
         /// </summary>
-        PlayerJumping
+        PlayerJumping,
+        /// <summary>
+        /// Status: Death or GameOver
+        /// </summary>
+        PlayerDeath
     }
     /// <summary>
-    /// Player body idling
+    /// Player body for idling
     /// </summary>
     public GameObject PlayerIdle;
     /// <summary>
-    /// Player body jumping
+    /// Player body for jumping
     /// </summary>
     public GameObject PlayerJump;
+    /// <summary>
+    /// Player body for death or gameover
+    /// </summary>
+    public GameObject PlayerDeath;
+    /// <summary>
+    /// Amount of player life
+    /// <para>Default: 3</para>
+    /// <para>CAUTION: This variable will move to GameController </para>
+    /// </summary>
+    public int PlayerLife;
 }

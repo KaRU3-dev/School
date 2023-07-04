@@ -41,15 +41,6 @@ public class RidingObjectGenerater : MonoBehaviour
     {
         ShowGeneraterPosition(GeneratePos1, GeneratePos2, GeneratePos3, GeneratePos4);
     }
-    private void Update()
-    {
-        DeltaT += Time.deltaTime;
-        if (DeltaT > GenDistance)
-        {
-            DeltaT = 0;
-            Generator();
-        }
-    }
 
 
     /// <summary>
@@ -66,7 +57,7 @@ public class RidingObjectGenerater : MonoBehaviour
         GeneraterPos4Vector3 = Pos4.transform.position;
     }
 
-    private void Generator()
+    public void Generator()
     {
         GameObject selectedObject;
 
@@ -243,6 +234,6 @@ public class RidingObjectGenerater : MonoBehaviour
 
     private void SetSelectedObjPosition(GameObject obj, GameObject pos)
     {
-        obj.transform.position = new Vector3(pos.transform.position.x, pos.transform.position.y, pos.transform.position.z);
+        obj.transform.position = new Vector3(pos.transform.position.x, pos.transform.position.y + 0.5f, pos.transform.position.z);
     }
 }

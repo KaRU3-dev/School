@@ -42,16 +42,6 @@ public class CarGenerator : MonoBehaviour
         ShowGeneratorPosition();
     }
 
-    private void Update()
-    {
-        DeltaT += Time.deltaTime;
-        if (DeltaT > GenDistance)
-        {
-            DeltaT = 0;
-            Generator();
-        }
-    }
-
     /// <summary>
     /// Show generator position
     /// </summary>
@@ -104,22 +94,22 @@ public class CarGenerator : MonoBehaviour
         // If pos = 1, generate to position 1
         if (pos == 1)
         {
-            car.transform.position = new Vector3(GeneratorPos1.transform.position.x, GeneratorPos1.transform.position.y, GeneratorPos1.transform.position.z + -0.5f);
+            car.transform.position = new Vector3(GeneratorPos1.transform.position.x, GeneratorPos1.transform.position.y + 0.5f, GeneratorPos1.transform.position.z);
         }
         // If pos = 2, generate to position 2
         else if (pos == 2)
         {
-            car.transform.position = new Vector3(GeneratorPos2.transform.position.x, GeneratorPos2.transform.position.y, GeneratorPos2.transform.position.z + -0.5f);
+            car.transform.position = new Vector3(GeneratorPos2.transform.position.x, GeneratorPos2.transform.position.y + 0.5f, GeneratorPos2.transform.position.z);
         }
         // If pos = 3, generate to position 3
         else if (pos == 3)
         {
-            car.transform.position = new Vector3(GeneratorPos3.transform.position.x, GeneratorPos3.transform.position.y, GeneratorPos3.transform.position.z + -0.5f);
+            car.transform.position = new Vector3(GeneratorPos3.transform.position.x, GeneratorPos3.transform.position.y + 0.5f, GeneratorPos3.transform.position.z);
         }
         // Can't find between 1 ~3, generate to position 1
         else
         {
-            car.transform.position = new Vector3(GeneratorPos1.transform.position.x, GeneratorPos1.transform.position.y, GeneratorPos1.transform.position.z + -0.5f);
+            car.transform.position = new Vector3(GeneratorPos1.transform.position.x, GeneratorPos1.transform.position.y + 0.5f, GeneratorPos1.transform.position.z);
         }
     }
 

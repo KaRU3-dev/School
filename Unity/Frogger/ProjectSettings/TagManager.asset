@@ -22,6 +22,7 @@ TagManager:
   - LongWood
   - GoRightTurtle
   - GoLeftTurtle
+  - Cars
   layers:
   - Default
   - TransparentFX

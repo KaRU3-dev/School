@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CharactorComponents : MonoBehaviour
+public class CharacterComponents : MonoBehaviour
 {
     [Tooltip("Player Move")]
     /// <summary>

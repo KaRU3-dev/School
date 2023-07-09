@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CharactorController : MonoBehaviour
+public class CharacterController : MonoBehaviour
 {
     /// <summary>
     /// PlayerBody
@@ -10,16 +10,16 @@ public class CharactorController : MonoBehaviour
     private GameObject PlayerBody;
 
     /// <summary>
-    /// Charactor components
-    /// <para>This variable is storing charactor's component</para>
+    /// Character components
+    /// <para>This variable is storing character's component</para>
     /// </summary>
-    private CharactorComponents Components;
+    private CharacterComponents Components;
 
     // Start is called before the first frame update
     void Start()
     {
         PlayerBody = GetComponent<GameObject>();
-        Components = GetComponent<CharactorComponents>();
+        Components = GetComponent<CharacterComponents>();
     }
 
     // Update is called once per frame

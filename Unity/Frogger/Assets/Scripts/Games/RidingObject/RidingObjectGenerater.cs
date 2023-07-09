@@ -30,7 +30,7 @@ public class RidingObjectGenerater : MonoBehaviour
     [SerializeField] private GameObject GeneratePos3;
     [SerializeField] private GameObject GeneratePos4;
 
-    // Generate global postion
+    // Generate global position
     [Header("Generate global position (Get only)")]
     [SerializeField] private Vector3 GeneraterPos1Vector3;
     [SerializeField] private Vector3 GeneraterPos2Vector3;
@@ -44,7 +44,7 @@ public class RidingObjectGenerater : MonoBehaviour
 
 
     /// <summary>
-    /// Show generater position to inspector
+    /// Show generator position to inspector
     /// </summary>
     /// <param name="Pos1">GameObject</param>
     /// <param name="Pos2">GameObject</param>
@@ -99,7 +99,7 @@ public class RidingObjectGenerater : MonoBehaviour
         return tmp;
     }
     /// <summary>
-    /// Wood gam object selector
+    /// Wood game object selector
     /// </summary>
     /// <returns>GameObject WoodShort/WoodLong</returns>
     private GameObject WoodSelector()

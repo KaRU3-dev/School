@@ -168,7 +168,7 @@ GameObject:
   - component: {fileID: 16236887}
   m_Layer: 0
   m_Name: Goal5
-  m_TagString: Untagged
+  m_TagString: Goal5
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -464,7 +464,7 @@ GameObject:
   - component: {fileID: 138901826}
   m_Layer: 0
   m_Name: HomeFrog
-  m_TagString: Untagged
+  m_TagString: Goal3
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -548,7 +548,7 @@ GameObject:
   - component: {fileID: 199105591}
   m_Layer: 0
   m_Name: HomeFrog
-  m_TagString: Untagged
+  m_TagString: Goal5
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -776,7 +776,7 @@ GameObject:
   - component: {fileID: 350321267}
   m_Layer: 0
   m_Name: Goal4
-  m_TagString: Untagged
+  m_TagString: Goal4
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1563,7 +1563,7 @@ GameObject:
   - component: {fileID: 825076201}
   m_Layer: 0
   m_Name: HomeFrog
-  m_TagString: Untagged
+  m_TagString: Goal1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1938,7 +1938,7 @@ GameObject:
   - component: {fileID: 1064614681}
   m_Layer: 0
   m_Name: Goal1
-  m_TagString: Untagged
+  m_TagString: Goal1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2205,7 +2205,7 @@ GameObject:
   - component: {fileID: 1247388334}
   m_Layer: 0
   m_Name: Home
-  m_TagString: Untagged
+  m_TagString: Goal4
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2289,7 +2289,7 @@ GameObject:
   - component: {fileID: 1256799037}
   m_Layer: 0
   m_Name: HomeFrog
-  m_TagString: Untagged
+  m_TagString: Goal2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2373,7 +2373,7 @@ GameObject:
   - component: {fileID: 1259475992}
   m_Layer: 0
   m_Name: Home
-  m_TagString: Untagged
+  m_TagString: Goal5
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2457,7 +2457,7 @@ GameObject:
   - component: {fileID: 1325952609}
   m_Layer: 0
   m_Name: Home
-  m_TagString: Untagged
+  m_TagString: Goal3
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2540,7 +2540,7 @@ GameObject:
   - component: {fileID: 1392702340}
   m_Layer: 0
   m_Name: GoalPosition
-  m_TagString: Untagged
+  m_TagString: Goal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2577,7 +2577,7 @@ GameObject:
   - component: {fileID: 1436308607}
   m_Layer: 0
   m_Name: HomeFrog
-  m_TagString: Untagged
+  m_TagString: Goal4
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2833,7 +2833,7 @@ GameObject:
   - component: {fileID: 1564312663}
   m_Layer: 0
   m_Name: Home
-  m_TagString: Untagged
+  m_TagString: Goal1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3078,7 +3078,7 @@ GameObject:
   - component: {fileID: 1772993928}
   m_Layer: 0
   m_Name: Goal2
-  m_TagString: Untagged
+  m_TagString: Goal2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3374,7 +3374,7 @@ GameObject:
   - component: {fileID: 1909191556}
   m_Layer: 0
   m_Name: Goal3
-  m_TagString: Untagged
+  m_TagString: Goal3
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3460,7 +3460,7 @@ GameObject:
   - component: {fileID: 1988129751}
   m_Layer: 0
   m_Name: Home
-  m_TagString: Untagged
+  m_TagString: Goal2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

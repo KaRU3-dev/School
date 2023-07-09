@@ -15,10 +15,13 @@ public class GameController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        MapObjectGeneretion();
+        MapObjectGeneretor();
     }
 
-    private void MapObjectGeneretion()
+    /// <summary>
+    /// If DeltaT > ObjectGenTiming, reset DeltaT and generate object
+    /// </summary>
+    private void MapObjectGeneretor()
     {
         Components.CarDeltaT += Time.deltaTime;
 

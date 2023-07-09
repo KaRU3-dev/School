@@ -23,6 +23,7 @@ TagManager:
   - GoRightTurtle
   - GoLeftTurtle
   - Cars
+  - Goal
   layers:
   - Default
   - TransparentFX

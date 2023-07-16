@@ -1,0 +1,15 @@
+E:\develop\School.git\C#\Summer\2023_Summer01-05_Okumura\bin\Debug\net7.0\2023_Summer01-05_Okumura.exe
+E:\develop\School.git\C#\Summer\2023_Summer01-05_Okumura\bin\Debug\net7.0\2023_Summer01-05_Okumura.deps.json
+E:\develop\School.git\C#\Summer\2023_Summer01-05_Okumura\bin\Debug\net7.0\2023_Summer01-05_Okumura.runtimeconfig.json
+E:\develop\School.git\C#\Summer\2023_Summer01-05_Okumura\bin\Debug\net7.0\2023_Summer01-05_Okumura.dll
+E:\develop\School.git\C#\Summer\2023_Summer01-05_Okumura\bin\Debug\net7.0\2023_Summer01-05_Okumura.pdb
+E:\develop\School.git\C#\Summer\2023_Summer01-05_Okumura\obj\Debug\net7.0\2023_Summer01-05_Okumura.csproj.AssemblyReference.cache
+E:\develop\School.git\C#\Summer\2023_Summer01-05_Okumura\obj\Debug\net7.0\2023_Summer01-05_Okumura.GeneratedMSBuildEditorConfig.editorconfig
+E:\develop\School.git\C#\Summer\2023_Summer01-05_Okumura\obj\Debug\net7.0\2023_Summer01-05_Okumura.AssemblyInfoInputs.cache
+E:\develop\School.git\C#\Summer\2023_Summer01-05_Okumura\obj\Debug\net7.0\2023_Summer01-05_Okumura.AssemblyInfo.cs
+E:\develop\School.git\C#\Summer\2023_Summer01-05_Okumura\obj\Debug\net7.0\2023_Summer01-05_Okumura.csproj.CoreCompileInputs.cache
+E:\develop\School.git\C#\Summer\2023_Summer01-05_Okumura\obj\Debug\net7.0\2023_Summer01-05_Okumura.dll
+E:\develop\School.git\C#\Summer\2023_Summer01-05_Okumura\obj\Debug\net7.0\refint\2023_Summer01-05_Okumura.dll
+E:\develop\School.git\C#\Summer\2023_Summer01-05_Okumura\obj\Debug\net7.0\2023_Summer01-05_Okumura.pdb
+E:\develop\School.git\C#\Summer\2023_Summer01-05_Okumura\obj\Debug\net7.0\2023_Summer01-05_Okumura.genruntimeconfig.cache
+E:\develop\School.git\C#\Summer\2023_Summer01-05_Okumura\obj\Debug\net7.0\ref\2023_Summer01-05_Okumura.dll

@@ -7,6 +7,9 @@ namespace _2023_Summer
         private double width;
         private double height;
 
+        /// <summary>
+        /// Input width and height, and show the result
+        /// </summary>
         public void RequestAmount()
         {
             // Request width
@@ -34,13 +37,24 @@ namespace _2023_Summer
             Console.WriteLine($"Area: {CalculateAreaSize(width, height)} cm^2 \nPerimeter: {CalculatePerimeter(width, height)} cm\n\n");
         }
 
+        /// <summary>
+        /// Calculate area size
+        /// </summary>
+        /// <param name="width"></param>
+        /// <param name="height"></param>
+        /// <returns>int width * height</returns>
         private double CalculateAreaSize(double width, double height)
         {
             double ans = width * height;
 
             return ans;
         }
-
+        /// <summary>
+        /// Calculate perimeter
+        /// </summary>
+        /// <param name="width"></param>
+        /// <param name="height"></param>
+        /// <returns>int (width * 2) + (height * 2)</returns>
         private double CalculatePerimeter(double width, double height)
         {
             double perimeter = (width * 2) + (height * 2);

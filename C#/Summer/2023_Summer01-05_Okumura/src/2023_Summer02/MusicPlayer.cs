@@ -4,6 +4,9 @@ namespace _2023_Summer
 {
     public class MusicPlayer
     {
+        /// <summary>
+        /// List of songs
+        /// </summary>
         public List<string> songs;
 
         public MusicPlayer()
@@ -11,6 +14,9 @@ namespace _2023_Summer
             songs = new List<string>();
         }
 
+        /// <summary>
+        /// Ask to add song(s)
+        /// </summary>
         public void AskMethod()
         {
             // Ask
@@ -22,8 +28,10 @@ namespace _2023_Summer
                 AskWhatSongAdd();
             }
         }
-
-        public void ShowSongList()
+        /// <summary>
+        /// Show created song list
+        /// </summary>
+        public void Play()
         {
             // Show songs
             for (int i = 0; i < songs.Count; i++)
@@ -31,7 +39,9 @@ namespace _2023_Summer
                 Console.WriteLine($"{i + 1}. {songs[i]}");
             }
         }
-
+        /// <summary>
+        /// Ask what song want to add
+        /// </summary>
         private void AskWhatSongAdd()
         {
             // Request song name
@@ -48,13 +58,19 @@ namespace _2023_Summer
             // Add
             AddSongs(song: song);
         }
-
+        /// <summary>
+        /// Adding a song
+        /// </summary>
+        /// <param name="song"></param>
         private void AddSongs(string song)
         {
             // Add a song to list
             songs.Add(song);
         }
-
+        /// <summary>
+        /// Ask to continue adding song
+        /// </summary>
+        /// <returns></returns>
         private bool AskContinueAddSongs()
         {
             // Ask continue add song to list

@@ -23,7 +23,7 @@ namespace _2023_Summer
             AskWhatSongAdd();
 
             // Ask looping
-            while(AskContinueAddSongs())
+            while (AskContinueAddSongs())
             {
                 AskWhatSongAdd();
             }
@@ -78,7 +78,7 @@ namespace _2023_Summer
             string ans = Console.ReadLine();
 
             // If ans is not yes/y/no/n, ask again
-            while(YesOrNo(ans))
+            while (YesOrNo(ans))
             {
                 Console.Write("Continue to add songs to list? (yes / no): ");
                 ans = Console.ReadLine();

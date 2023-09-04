@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Develope\\School.git\\School\\C#\\20230828_Task02_Okumura\\20230828_Task02_Okumura.csproj": {}
+    "D:\\Develope\\School.git\\School\\C#\\20230828_Task02_Okumura\\20230828_Task02_Okumura.csproj": {}
   },
   "projects": {
-    "d:\\Develope\\School.git\\School\\C#\\20230828_Task02_Okumura\\20230828_Task02_Okumura.csproj": {
+    "D:\\Develope\\School.git\\School\\C#\\20230828_Task02_Okumura\\20230828_Task02_Okumura.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Develope\\School.git\\School\\C#\\20230828_Task02_Okumura\\20230828_Task02_Okumura.csproj",
+        "projectUniqueName": "D:\\Develope\\School.git\\School\\C#\\20230828_Task02_Okumura\\20230828_Task02_Okumura.csproj",
         "projectName": "20230828_Task02_Okumura",
-        "projectPath": "d:\\Develope\\School.git\\School\\C#\\20230828_Task02_Okumura\\20230828_Task02_Okumura.csproj",
+        "projectPath": "D:\\Develope\\School.git\\School\\C#\\20230828_Task02_Okumura\\20230828_Task02_Okumura.csproj",
         "packagesPath": "C:\\Users\\himar\\.nuget\\packages\\",
-        "outputPath": "d:\\Develope\\School.git\\School\\C#\\20230828_Task02_Okumura\\obj\\",
+        "outputPath": "D:\\Develope\\School.git\\School\\C#\\20230828_Task02_Okumura\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

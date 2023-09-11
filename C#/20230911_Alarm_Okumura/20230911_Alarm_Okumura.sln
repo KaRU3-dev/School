@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "20230911_Alarm_Okumura", "20230911_Alarm_Okumura.csproj", "{D52001B3-5687-4A89-BBA6-03ADCD055C54}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D52001B3-5687-4A89-BBA6-03ADCD055C54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D52001B3-5687-4A89-BBA6-03ADCD055C54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D52001B3-5687-4A89-BBA6-03ADCD055C54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D52001B3-5687-4A89-BBA6-03ADCD055C54}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8677D1F8-E43D-42C0-B8B1-542066F8F71E}
+	EndGlobalSection
+EndGlobal

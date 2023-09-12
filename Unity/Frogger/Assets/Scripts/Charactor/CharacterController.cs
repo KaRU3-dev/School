@@ -13,7 +13,7 @@ public class CharacterController : MonoBehaviour
     /// Character components
     /// <para>This variable is storing character's component</para>
     /// </summary>
-    private CharacterComponents Components;
+    protected CharacterComponents Components;
 
     // Start is called before the first frame update
     void Start()

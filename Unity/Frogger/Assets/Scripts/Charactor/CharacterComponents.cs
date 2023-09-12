@@ -79,4 +79,8 @@ public class CharacterComponents : MonoBehaviour
     /// <para>CAUTION: This variable will move to GameController </para>
     /// </summary>
     public int PlayerLife;
+    /// <summary>
+    /// Player's health
+    /// </summary>
+    public int PlayerHealth;
 }

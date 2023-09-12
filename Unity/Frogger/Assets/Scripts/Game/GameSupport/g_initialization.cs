@@ -4,13 +4,14 @@ using UnityEngine;
 
 namespace FloggerGame
 {
-    public class g_initialization
+    public class g_initialization : GameMain
     {
         /// <summary>
         /// Game variables initialization
         /// </summary>
         public void InitVariables()
         {
+
             // Set game start bool to true(game is start)
             g_variables.Start = true;
 

@@ -1,3 +1,4 @@
+using System.Threading;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -54,10 +55,38 @@ namespace FloggerGame.Generators
 
                         genObj1.transform.position = pos1.transform.position;
 
+                        // Wait 1 sec
+                        Thread.Sleep(1000);
+
+                        if (i1 == 1)
+                        {
+                            genObj1 = Instantiate(Woods1);
+                        }
+                        else if (i1 == 2)
+                        {
+                            genObj1 = Instantiate(Woods2);
+                        }
+
+                        genObj1.transform.position = pos1.transform.position;
+
                         break;
                     case 2:
                         int i2 = wood_support.Selector(2);
                         GameObject genObj2 = null;
+
+                        if (i2 == 1)
+                        {
+                            genObj2 = Instantiate(Woods1);
+                        }
+                        else if (i2 == 2)
+                        {
+                            genObj2 = Instantiate(Woods2);
+                        }
+
+                        genObj2.transform.position = pos2.transform.position;
+
+                        // Wait 1 sec
+                        Thread.Sleep(1000);
 
                         if (i2 == 1)
                         {
@@ -86,11 +115,37 @@ namespace FloggerGame.Generators
 
                         genObj3.transform.position = pos2.transform.position;
 
+                        // Wait 1 sec
+                        Thread.Sleep(1000);
+                        if (i3 == 1)
+                        {
+                            genObj3 = Instantiate(Woods3);
+                        }
+                        else if (i3 == 2)
+                        {
+                            genObj3 = Instantiate(Woods4);
+                        }
+
+                        genObj3.transform.position = pos2.transform.position;
+
                         break;
                     case 4:
                         int i4 = wood_support.Selector(2);
                         GameObject genObj4 = null;
 
+                        if (i4 == 1)
+                        {
+                            genObj4 = Instantiate(Woods3);
+                        }
+                        else if (i4 == 2)
+                        {
+                            genObj4 = Instantiate(Woods4);
+                        }
+
+                        genObj4.transform.position = pos2.transform.position;
+
+                        // Wait 1 sec
+                        Thread.Sleep(1000);
                         if (i4 == 1)
                         {
                             genObj4 = Instantiate(Woods3);
@@ -128,6 +183,19 @@ namespace FloggerGame.Generators
 
                         genObj1.transform.position = pos1.transform.position;
 
+                        // Wait 1 sec
+                        Thread.Sleep(1000);
+                        if (i1 == 1)
+                        {
+                            genObj1 = Instantiate(Clab1);
+                        }
+                        else if (i1 == 2)
+                        {
+                            genObj1 = Instantiate(Clab2);
+                        }
+
+                        genObj1.transform.position = pos1.transform.position;
+
                         break;
                     case 2:
                         int i2 = wood_support.Selector(2);
@@ -143,6 +211,20 @@ namespace FloggerGame.Generators
                         }
 
                         genObj2.transform.position = pos2.transform.position;
+
+                        // Wait 1 sec
+                        Thread.Sleep(1000);
+                        if (i2 == 1)
+                        {
+                            genObj2 = Instantiate(Clab1);
+                        }
+                        else if (i2 == 2)
+                        {
+                            genObj2 = Instantiate(Clab2);
+                        }
+
+                        genObj2.transform.position = pos2.transform.position;
+
 
                         break;
                     case 3:
@@ -160,11 +242,37 @@ namespace FloggerGame.Generators
 
                         genObj3.transform.position = pos2.transform.position;
 
+                        // Wait 1 sec
+                        Thread.Sleep(1000);
+                        if (i3 == 1)
+                        {
+                            genObj3 = Instantiate(Clab3);
+                        }
+                        else if (i3 == 2)
+                        {
+                            genObj3 = Instantiate(Clab4);
+                        }
+
+                        genObj3.transform.position = pos2.transform.position;
+
                         break;
                     case 4:
                         int i4 = wood_support.Selector(2);
                         GameObject genObj4 = null;
 
+                        if (i4 == 1)
+                        {
+                            genObj4 = Instantiate(Woods3);
+                        }
+                        else if (i4 == 2)
+                        {
+                            genObj4 = Instantiate(Woods4);
+                        }
+
+                        genObj4.transform.position = pos2.transform.position;
+
+                        // Wait 1 sec
+                        Thread.Sleep(1000);
                         if (i4 == 1)
                         {
                             genObj4 = Instantiate(Woods3);

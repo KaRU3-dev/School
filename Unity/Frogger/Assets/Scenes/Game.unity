@@ -963,6 +963,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 8215926598755518578, guid: 1d8bde86d930e444aa46591160b62698, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8976761727012819200, guid: 1d8bde86d930e444aa46591160b62698, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -1677,8 +1681,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 885568892}
-  - component: {fileID: 885568891}
-  - component: {fileID: 885568890}
+  - component: {fileID: 885568894}
+  - component: {fileID: 885568893}
   m_Layer: 0
   m_Name: ObjectController
   m_TagString: Untagged
@@ -1686,63 +1690,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &885568890
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 885568889}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9664c814087403b4abe0add38c3aa2e8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  DeltaT: 0
-  GenDistance: 4
-  ParentObject: {fileID: 1863481569}
-  DefaultGenPos: 1
-  DefaultObj: 1
-  WoodShort: {fileID: 8448269749749941752, guid: 29e1131db1c85f746a9ef6b50fb609d2, type: 3}
-  WoodLong: {fileID: 1124566579925960975, guid: e4b907c2da660e64482ba890752e04c4, type: 3}
-  TurtleLeftToRight: {fileID: 6383700014010578104, guid: 7dacbd770ec1e3a43a75217beea6b7a4, type: 3}
-  TurtleRightToLeft: {fileID: 6489550575165630934, guid: b7eca7bedbdbacf4f98075320309ff3f, type: 3}
-  GeneratePos1: {fileID: 434932197}
-  GeneratePos2: {fileID: 85067760}
-  GeneratePos3: {fileID: 1918128777}
-  GeneratePos4: {fileID: 514932925}
-  GeneraterPos1Vector3: {x: 0, y: 0, z: 0}
-  GeneraterPos2Vector3: {x: 0, y: 0, z: 0}
-  GeneraterPos3Vector3: {x: 0, y: 0, z: 0}
-  GeneraterPos4Vector3: {x: 0, y: 0, z: 0}
---- !u!114 &885568891
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 885568889}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 35246c922e8945e40b9eea9edf3cbd58, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  DeltaT: 0
-  GenDistance: 1.5
-  ParentObject: {fileID: 2063534994}
-  DefaultPos: 1
-  DefaultCar: 1
-  Car1: {fileID: 6154669875996723087, guid: 2158e67dcdb7ba14089d7c1c7e9bab9c, type: 3}
-  Car2: {fileID: 3404806890418088508, guid: 5605f2cae1c90ee4cb735c6d2a647ded, type: 3}
-  Car3: {fileID: 6531068770982343858, guid: f9e970615e500fa43b503d87b2f7af44, type: 3}
-  Car4: {fileID: 2746359484559795363, guid: 64a587923dc3f694ba440353ee2b118b, type: 3}
-  Car5: {fileID: 5167039495683921206, guid: 4cbdc815ca5153c42b3e44e2485e64d7, type: 3}
-  GeneratorPos1: {fileID: 762168860}
-  GeneratorPos2: {fileID: 1623884382}
-  GeneratorPos3: {fileID: 983642198}
-  VectorPos1: {x: 0, y: 0, z: 0}
-  VectorPos2: {x: 0, y: 0, z: 0}
-  VectorPos3: {x: 0, y: 0, z: 0}
 --- !u!4 &885568892
 Transform:
   m_ObjectHideFlags: 0
@@ -1758,6 +1705,50 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &885568893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 885568889}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 096ad61abbf83d946a9eb376994e5f0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  car1: {fileID: 5167039495683921206, guid: 4cbdc815ca5153c42b3e44e2485e64d7, type: 3}
+  car2: {fileID: 3404806890418088508, guid: 5605f2cae1c90ee4cb735c6d2a647ded, type: 3}
+  car3: {fileID: 6154669875996723087, guid: 2158e67dcdb7ba14089d7c1c7e9bab9c, type: 3}
+  car4: {fileID: 6531068770982343858, guid: f9e970615e500fa43b503d87b2f7af44, type: 3}
+  car5: {fileID: 2746359484559795363, guid: 64a587923dc3f694ba440353ee2b118b, type: 3}
+  pos1: {fileID: 762168860}
+  pos2: {fileID: 1623884382}
+  pos3: {fileID: 983642198}
+--- !u!114 &885568894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 885568889}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34e505fbec51e6c41ae1ea17ccdbabbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Woods1: {fileID: 8448269749749941752, guid: 652f2888eba61f24287c4ae1bf1cd442, type: 3}
+  Woods2: {fileID: 1124566579925960975, guid: e7c541f91d441da4eb2e56456672c831, type: 3}
+  Woods3: {fileID: 8448269749749941752, guid: 29e1131db1c85f746a9ef6b50fb609d2, type: 3}
+  Woods4: {fileID: 1124566579925960975, guid: e4b907c2da660e64482ba890752e04c4, type: 3}
+  Clab1: {fileID: 6383700014010578104, guid: 7dacbd770ec1e3a43a75217beea6b7a4, type: 3}
+  Clab2: {fileID: 6383700014010578104, guid: 7dacbd770ec1e3a43a75217beea6b7a4, type: 3}
+  Clab3: {fileID: 6489550575165630934, guid: b7eca7bedbdbacf4f98075320309ff3f, type: 3}
+  Clab4: {fileID: 6489550575165630934, guid: b7eca7bedbdbacf4f98075320309ff3f, type: 3}
+  pos1: {fileID: 434932197}
+  pos2: {fileID: 85067760}
+  pos3: {fileID: 1918128777}
+  pos4: {fileID: 514932925}
 --- !u!1 &924728801
 GameObject:
   m_ObjectHideFlags: 0
@@ -2131,8 +2122,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1197281106}
-  - component: {fileID: 1197281110}
-  - component: {fileID: 1197281109}
+  - component: {fileID: 1197281111}
+  - component: {fileID: 1197281112}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -2155,7 +2146,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1197281109
+--- !u!114 &1197281111
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2164,35 +2155,23 @@ MonoBehaviour:
   m_GameObject: {fileID: 1197281105}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c1e2f2ab658fc09499c75e68dd45370d, type: 3}
+  m_Script: {fileID: 11500000, guid: 532804dd0012a3342b289c18a5459569, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CarDeltaT: 0
-  RidingObjectDeltaT: 0
-  CarGenTiming: 2
-  RidingObjectGenTiming: 4
-  CarGenerator: {fileID: 885568891}
-  RidingObjectGenerator: {fileID: 885568890}
-  PlayerLife: 3
-  PlayerGoals: 0
+--- !u!114 &1197281112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1197281105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 824b4b2de02bbc8469a72920dd414031, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
   PlayerBody: {fileID: 8215926598755518578, guid: 1d8bde86d930e444aa46591160b62698, type: 3}
-  GoalOneStatus: 0
-  GoalTwoStatus: 0
-  GoalThreeStatus: 0
-  GoalFourStatus: 0
-  GoalFiveStatus: 0
---- !u!114 &1197281110
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1197281105}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2641b9bcd9396dc41aba595f6eeb08b2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  PlayerGenPos: {fileID: 364602987}
 --- !u!1 &1247388332
 GameObject:
   m_ObjectHideFlags: 0

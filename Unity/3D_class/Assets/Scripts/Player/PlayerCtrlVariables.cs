@@ -14,7 +14,7 @@ public class PlayerCtrlVariables : PlayerControler
     }
 
     // Player speed
-    public float speed = 5f;
+    public float speed = 12f;
 
     // Mouse sensitivity
     public float mouseSensitivity = 100f;

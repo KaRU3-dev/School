@@ -1,0 +1,92 @@
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Executables
+*.exe
+*.out
+*.app
+
+# CMake build directory
+CMakeFiles/
+CMakeCache.txt
+CMakeScripts/
+CMakeScripts/CMakeOutput.log
+CMakeScripts/CMakeError.log
+
+# Visual Studio files
+*.sdf
+*.opensdf
+*.suo
+*.pdb
+*.ilk
+*.idb
+*.manifest
+*.ipch
+*.exp
+*.aps
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.user
+*.aps
+*.filters
+*.targets
+*.props
+*.x64
+*.xcuserdata
+*.vcxproj
+*.vcxproj.filters
+
+# Xcode files
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcworkspace
+*.xcuserstate
+project.xcworkspace/
+xcuserdata/
+
+# Eclipse files
+.settings/
+.project
+.cproject
+.metadata
+bin/
+tmp/
+*.launch
+
+# Sublime Text files
+*.sublime-workspace
+
+# Textmate files
+*.tmproj
+*.tmproject
+*.tm_properties
+
+# IntelliJ IDEA
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Others
+*.log
+*.backup
+*~
+
+# Ignore build output
+build/

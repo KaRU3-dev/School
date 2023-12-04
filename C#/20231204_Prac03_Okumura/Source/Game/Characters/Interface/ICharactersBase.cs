@@ -1,8 +1,8 @@
 using System;
 
-namespace _20231204_Prac03_Okumura
+namespace Game.Characters.Interface
 {
-    public interface IPlayer : IAttackable
+    public interface ICharactersBase : IAttackable
     {
         /// <summary>
         /// 名前
@@ -14,5 +14,10 @@ namespace _20231204_Prac03_Okumura
         /// </summary>
         /// <value>integer</value>
         public int AttackPower { get;}
+        /// <summary>
+        /// プレイヤーかどうか
+        /// </summary>
+        /// <value>bool</value>
+        public bool IsPlayer { get; set; }
     }
 }

@@ -1,8 +1,10 @@
 using System;
 
-namespace _20231204_Prac03_Okumura
+using Game.Characters.Interface;
+
+namespace Game.Characters
 {
-    public struct Player : IPlayer
+    public struct Player : ICharactersBase
     {
         private string name = "";
         private int attackPower = 0;

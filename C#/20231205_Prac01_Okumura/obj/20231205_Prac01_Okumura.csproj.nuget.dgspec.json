@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Develope\\School.git\\School\\C#\\20231204_Prac03_Okumura\\20231204_Prac03_Okumura.csproj": {}
+    "D:\\Develope\\School.git\\School\\C#\\20231205_Prac01_Okumura\\20231205_Prac01_Okumura.csproj": {}
   },
   "projects": {
-    "D:\\Develope\\School.git\\School\\C#\\20231204_Prac03_Okumura\\20231204_Prac03_Okumura.csproj": {
+    "D:\\Develope\\School.git\\School\\C#\\20231205_Prac01_Okumura\\20231205_Prac01_Okumura.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Develope\\School.git\\School\\C#\\20231204_Prac03_Okumura\\20231204_Prac03_Okumura.csproj",
-        "projectName": "20231204_Prac03_Okumura",
-        "projectPath": "D:\\Develope\\School.git\\School\\C#\\20231204_Prac03_Okumura\\20231204_Prac03_Okumura.csproj",
+        "projectUniqueName": "D:\\Develope\\School.git\\School\\C#\\20231205_Prac01_Okumura\\20231205_Prac01_Okumura.csproj",
+        "projectName": "20231205_Prac01_Okumura",
+        "projectPath": "D:\\Develope\\School.git\\School\\C#\\20231205_Prac01_Okumura\\20231205_Prac01_Okumura.csproj",
         "packagesPath": "C:\\Users\\himar\\.nuget\\packages\\",
-        "outputPath": "D:\\Develope\\School.git\\School\\C#\\20231204_Prac03_Okumura\\obj\\",
+        "outputPath": "D:\\Develope\\School.git\\School\\C#\\20231205_Prac01_Okumura\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -22,7 +22,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -30,8 +30,8 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -42,8 +42,8 @@
         }
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "imports": [
             "net461",
             "net462",
@@ -60,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

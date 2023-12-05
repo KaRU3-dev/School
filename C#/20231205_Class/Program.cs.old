@@ -1,0 +1,48 @@
+﻿using System;
+
+namespace _20231205_Class
+{
+    class Point2D
+    {
+        public int X { get; set; }
+        public int Y { get; set; }
+
+        public Point2D(int x, int y) => (X, Y) = (x, y);
+
+        // XY座標が等しいかどうかを判定する
+        public override bool Equals(object? obj)
+        {
+            // objがnullでないかどうかを判定する
+            if (obj == null)
+            {
+                return false;
+            }
+            // objがPoint2D型かどうかを判定する
+            if (!(obj is Point2D))
+            {
+                return false;
+            }
+            // objをPoint2D型にキャストする
+            Point2D p = (Point2D)obj;
+            // XY座標が等しいかどうかを判定する
+            return (X == p.X) && (Y == p.Y);
+        }
+
+        // ハッシュ値を取得する
+        public override int GetHashCode() => (X, Y).GetHashCode();
+    }
+    public class Program
+    {
+        public static void Main(string[] args)
+        {
+            // インスタンス化
+            Point2D p = new Point2D(10, 20);
+
+            // 判定
+            Console.WriteLine(p.Equals(new Point2D(10, 20))); // True
+
+            // ハッシュ値
+            Console.WriteLine(p.GetHashCode()); // 10, 20のハッシュ値
+        }
+    }
+}

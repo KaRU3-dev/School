@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "ktoj9jUl5b7mqc32/Cl1r3hPZIzF3++ugM6bldptdBYz1Zg1iX4Z3OxBNXraEFRjYuaLNTmM4FWEXPfO3n/onQ==",
+  "success": true,
+  "projectFilePath": "D:\\Develope\\School.git\\School\\C#\\20231205_Class\\20231205_Class.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\himar\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.14\\microsoft.netcore.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\himar\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.14\\microsoft.windowsdesktop.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\himar\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.14\\microsoft.aspnetcore.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\himar\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.14\\microsoft.netcore.app.host.win-x64.7.0.14.nupkg.sha512"
+  ],
+  "logs": []
+}

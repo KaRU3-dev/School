@@ -1,0 +1,15 @@
+D:\Develope\School.git\School\C#\20231211_Class\bin\Debug\net8.0\20231211_Class.exe
+D:\Develope\School.git\School\C#\20231211_Class\bin\Debug\net8.0\20231211_Class.deps.json
+D:\Develope\School.git\School\C#\20231211_Class\bin\Debug\net8.0\20231211_Class.runtimeconfig.json
+D:\Develope\School.git\School\C#\20231211_Class\bin\Debug\net8.0\20231211_Class.dll
+D:\Develope\School.git\School\C#\20231211_Class\bin\Debug\net8.0\20231211_Class.pdb
+D:\Develope\School.git\School\C#\20231211_Class\obj\Debug\net8.0\20231211_Class.GeneratedMSBuildEditorConfig.editorconfig
+D:\Develope\School.git\School\C#\20231211_Class\obj\Debug\net8.0\20231211_Class.AssemblyInfoInputs.cache
+D:\Develope\School.git\School\C#\20231211_Class\obj\Debug\net8.0\20231211_Class.AssemblyInfo.cs
+D:\Develope\School.git\School\C#\20231211_Class\obj\Debug\net8.0\20231211_Class.csproj.CoreCompileInputs.cache
+D:\Develope\School.git\School\C#\20231211_Class\obj\Debug\net8.0\20231211_Class.sourcelink.json
+D:\Develope\School.git\School\C#\20231211_Class\obj\Debug\net8.0\20231211_Class.dll
+D:\Develope\School.git\School\C#\20231211_Class\obj\Debug\net8.0\refint\20231211_Class.dll
+D:\Develope\School.git\School\C#\20231211_Class\obj\Debug\net8.0\20231211_Class.pdb
+D:\Develope\School.git\School\C#\20231211_Class\obj\Debug\net8.0\20231211_Class.genruntimeconfig.cache
+D:\Develope\School.git\School\C#\20231211_Class\obj\Debug\net8.0\ref\20231211_Class.dll

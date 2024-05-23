@@ -1,3 +1,3 @@
-[submodule "projectterra-unity"]
-    path = projectterra-unity
-    url = https://github.com/project-terrabyte/ProjectTerra.git
+[submodule "game"]
+    path = game
+    url = https://github.com/project-terrabyte/game.git

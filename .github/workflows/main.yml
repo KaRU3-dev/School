@@ -1,0 +1,84 @@
+# The GitHub Actions workflow.
+
+name: CI/CD
+
+on:
+  push:
+    branches:
+      - dev/*
+
+jobs:
+  build:
+    runs-on: ubuntu:20.04
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Setup .NET Core
+        uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: 8.0.x
+
+      - name: Build
+        run: dotnet build
+
+      - name: Test
+        run: dotnet test
+
+  deploy:
+    runs-on: ubuntu:20.04
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Setup .NET Core
+        uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: 8.0.x
+
+      - name: Deploy
+        run: dotnet publish
+
+      - name: Test
+        run: dotnet test
+
+  container:
+    runs-on: ubuntu:20.04
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Setup .NET Core
+        uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: 8.0.x
+
+      - name: Build
+        run: dotnet build
+
+      - name: Test
+        run: dotnet test
+
+      - name: Create container image
+        run: docker build -t myapp .
+
+      - name: Push container image
+        run: docker push myapp
+
+  notify:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Setup .NET Core
+        uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: 8.0.x
+
+      - name: Notify
+        run: echo "All jobs are done."
